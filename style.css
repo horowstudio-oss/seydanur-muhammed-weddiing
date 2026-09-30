@@ -7,3 +7,31 @@
 .language-gate .lang-buttons button{appearance:none;-webkit-appearance:none;border:1.5px solid var(--wine);background:transparent;color:var(--wine);padding:16px 12px;border-radius:999px;font:600 15px 'Noto Kufi Arabic',Montserrat,sans-serif;cursor:pointer;transition:background .25s ease,color .25s ease,transform .25s ease}
 .language-gate .lang-buttons button:hover,.language-gate .lang-buttons button:focus-visible{background:var(--wine);color:var(--paper);transform:translateY(-2px);outline:none}
 @media(max-width:360px){.language-gate .lang-buttons{width:min(88vw,300px);gap:10px}.language-gate .lang-buttons button{padding:14px 8px;font-size:13px}}
+.families-inline {
+  margin: 24px auto 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+
+  color: var(--wine, #8f0f24);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.families-heart {
+  margin: 2px 0;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--wine, #8f0f24);
+}
+
+@media (max-width: 480px) {
+  .families-inline {
+    margin: 20px auto 18px;
+    font-size: 13px;
+  }
+}
